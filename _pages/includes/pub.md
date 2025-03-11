@@ -12,4 +12,5 @@
 
 [**Code**](https://github.com/circleLZY/MTKD-CD) ![](https://img.shields.io/github/stars/circleLZY/MTKD-CD?style=social)
   -  We introduce **JL1-CD**, a new sub-meter, all-inclusive open-source CD dataset comprising 5,000 pairs of remote sensing image patches with a resolution of 0.5–0.75 meters. Additionally, we propose a multi-teacher knowledge distillation (MTKD) framework, wich significantly improves the performance of CD models with various network architectures and parameter sizes without increasing any computational or time cost during inference.
-CD
+</div>
+</div>
