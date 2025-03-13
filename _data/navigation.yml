@@ -20,12 +20,10 @@ main:
 
   - title: "Competitions"
     url: "/#-selected-competitions"
+    
+  - title: "Service"
+    url: "/#-academic-service"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Service"
-    url: "/#-academic-service"
-
-  - title: "Sports"
-    url: "/#-sports"
