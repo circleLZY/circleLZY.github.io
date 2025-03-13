@@ -26,3 +26,15 @@
   - We innovatively combine the SR of speckled images with denoising using knowledge distillation (KD), significantly improving the performance of the model without introducing any additional computational overhead during inference.
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GRSL 2024</div><img src='images/grsl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SAR Image Compression With Inherent Denoising Capability Through Knowledge Distillation](https://ieeexplore.ieee.org/abstract/document/10495338) \\
+**Ziyuan Liu**, Shaoping Wang , Yuantao Gu
+
+  - We innovatively utilize a KD mechanism to combine compression with denoising for speckled images. Our method exhibits superior performance compared to other methods on both synthetic and SAR datasets.
+  - The distillation mechanism is applicable to various learned image compression algorithms and consistently enhances their performance.
+  - This enhancement is achieved without introducing extra complexity in terms of computational time and memory utilization during inference.
+</div>
+</div>
