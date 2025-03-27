@@ -41,3 +41,7 @@
   - This enhancement is achieved without introducing extra complexity in terms of computational time and memory utilization during inference.
 </div>
 </div>
+
+## Others
+
+- **[Diffusion Model]** [Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](https://arxiv.org/pdf/2503.10103), Jiawei Zhang, **Ziyuan Liu**, Leon Yan, Gen Li, Yuantao Gu. arXiv 2025.
