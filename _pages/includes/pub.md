@@ -4,6 +4,18 @@
 
 ## Remote Sensing Change Detection
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/m2cd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[M$^2$CD: A Unified MultiModal Framework for Optical-SAR Change Detection with Mixture of Experts and Self-Distillation](https://arxiv.org/abs/2503.19406) \\
+**Ziyuan Liu**, Jiawei Zhang, Wenyu Wang, Yuantao Gu
+  -  We propose a unified **M**ulti**M**odal **CD** framework (M$2$CD), which is highly versatile and robust, compatible with various backbone architectures.
+  -  By introducing modality-specialized MoE modules into the backbone and innovatively proposing an Optical-to-SAR transition path (O2SP) for self-distillation guidance, we reduce the feature space discrepancies between different modalities and alleviate the model’s burden in processing multimodal data.
+  -  Extensive experiments on the CAU-Flood dataset demonstrate that M2CD outperforms all SOTA methods.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/mtkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
