@@ -67,3 +67,4 @@
 ## Others
 
 - **[Diffusion Model]** [Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](https://arxiv.org/pdf/2503.10103), Jiawei Zhang, **Ziyuan Liu**, Leon Yan, Gen Li, Yuantao Gu. arXiv 2025.
+- **[Open Source]*** [Open-CD:A Comprehensive Toolbox for Change Detection](https://arxiv.org/pdf/2407.15317), Kaiyu Li, ..., **Ziyuan Liu**, ... . ACM MM 2025.
