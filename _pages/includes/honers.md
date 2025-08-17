@@ -1,5 +1,6 @@
 # 🎖 Honors and Awards
 
+- 2025, "Electronic Star" Scholarship of the Department of Electronic Engineering, Tsinghua University \| 清华大学电子之星奖学金
 - 2025, Champion of Topic A "Road Extraction from High-Resolution Remote Sensing Data" in the 2nd "Jilin-1" Cup Youth Innovation and Entrepreneurship Competition for Satellite Remote Sensing Applications, Jilin Provincial Department of Education \| 第二届“吉林一号”杯卫星遥感应用青年创新创业大赛 赛题A“高分辨率遥感数据道路提取研究”冠军，吉林省教育厅
 - 2025, Runner-up of Topic B "Full-Element Change Detection in High-Resolution Remote Sensing Images" in the 2nd "Jilin-1" Cup Youth Innovation and Entrepreneurship Competition for Satellite Remote Sensing Applications, Jilin Provincial Department of Education \| 第二届“吉林一号”杯卫星遥感应用青年创新创业大赛 赛题B“高分辨率遥感影像全要素变化检测研究”亚军，吉林省教育厅
 - 2024, National Scholarship for Graduate Student, Ministry of Education \| 研究生国家奖学金
