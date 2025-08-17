@@ -4,7 +4,17 @@
 
 ## Remote Sensing Change Detection
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/m2cd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JSTARS 2025</div><img src='images/mbsd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Novel Multi-Branch Self-Distillation Framework for Optimizing Remote Sensing Change Detection](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11122566) \\
+**Ziyuan Liu**, Jiawei Zhang, Wenyu Wang, Yuantao Gu
+  -  We propose the MBSD training framework, anovel and generalizable self-distillation learning paradigm designed for CD tasks.
+  -  The proposed framework is single-stage, end-to-end, and incurs only a modest memory and time increase during training, with no extra cost during inference.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">GRSL 2025</div><img src='images/m2cd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [M$^2$CD: A Unified MultiModal Framework for Optical-SAR Change Detection with Mixture of Experts and Self-Distillation](https://arxiv.org/abs/2503.19406) \\
