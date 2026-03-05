@@ -26,7 +26,7 @@
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/mtkd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2025</div><img src='images/mtkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework](https://arxiv.org/pdf/2502.13407) \\
@@ -66,5 +66,5 @@
 
 ## Others
 
-- **[Diffusion Model]** [Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](https://arxiv.org/pdf/2503.10103), Jiawei Zhang, **Ziyuan Liu**, Leon Yan, Gen Li, Yuantao Gu. arXiv 2025.
+- **[Diffusion Model]** [Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](https://arxiv.org/pdf/2503.10103), Jiawei Zhang, **Ziyuan Liu**, Leon Yan, Gen Li, Yuantao Gu. NeurIPS 2025.
 - **[Open Source]*** [Open-CD:A Comprehensive Toolbox for Change Detection](https://arxiv.org/pdf/2407.15317), Kaiyu Li, ..., **Ziyuan Liu**, ... . ACM MM 2025.
