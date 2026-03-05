@@ -1,11 +1,11 @@
 # 🔥 News
-- *2026.2*: 我们的论文 "JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework" 被 IEEE TIM 接收！🎉
-- *2026.1*: 我们的论文 "UnlearningCD: Distill to Forget in Change Detection via Perturbed Knowledge" 被 IEEE JSTARS 接收！🎉
+- *2026.02*: 我们的论文 "JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework" 被 IEEE TIM 接收！🎉
+- *2026.01*: 我们的论文 "UnlearningCD: Distill to Forget in Change Detection via Perturbed Knowledge" 被 IEEE JSTARS 接收！🎉
 - *2025.11*: 荣获第五届《雷达学报》博士论坛最佳报告.
 - *2025.11*: 荣获首届清华大学马约翰杯匹克球比赛冠军 🏆.
 - *2025.10*: 荣获《中国图象图形学报》研究生学术沙龙杰出报告.
 - *2025.10*: 荣获研究生综合奖学金（一等）.
 - *2025.06*: 荣获清华大学电子之星奖学金.
 - *2025.06*: 荣获清华大学研究生游泳联赛甲组50米蛙泳、100米蛙泳、4×50米自由泳接力 三项冠军、助力电子系成就四连冠！🏊‍♂️
-- *2025.02*: 我们的遥感变化检测数据集 JL1-CD 现已开源！ Dataset: [JL1-CD Dataset](https://github.com/circleLZY/MTKD-CD) 📂.
-- *2025.01*: 荣获第二届“吉林一号”杯卫星遥感大赛赛题A（道路提取）冠军，赛题B（全要素变化检测）亚军 🏆.
+- *2025.02*: 我们的全要素遥感变化检测数据集 JL1-CD 现已开源！ Dataset: [JL1-CD Dataset](https://github.com/circleLZY/MTKD-CD) 📂.
+- *2025.01*: 荣获第二届“吉林一号”杯卫星遥感大赛赛题A（道路提取）冠军，赛题B（变化检测）亚军 🏆.

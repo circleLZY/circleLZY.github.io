@@ -1,5 +1,8 @@
 # 🎖 Honors and Awards
 
+- 2025, Best Presentation at the 5th Doctoral Forum of the Journal of Radars \| 第五届《雷达学报》博士论坛最佳报告.
+- 2025, Outstanding Presentation at the Graduate Academic Salon of the Journal of Image and Graphics \| 《中国图象图形学报》研究生学术沙龙杰出报告.
+- 2025, First-Prize Comprehensive Scholarship for Graduate Students, Tsinghua University \| 清华大学研究生综合奖学金（一等）.
 - 2025, "Electronic Star" Scholarship of the Department of Electronic Engineering, Tsinghua University \| 清华大学电子之星奖学金
 - 2025, Champion of Topic A "Road Extraction from High-Resolution Remote Sensing Data" in the 2nd "Jilin-1" Cup Youth Innovation and Entrepreneurship Competition for Satellite Remote Sensing Applications, Jilin Provincial Department of Education \| 第二届“吉林一号”杯卫星遥感应用青年创新创业大赛 赛题A“高分辨率遥感数据道路提取研究”冠军，吉林省教育厅
 - 2025, Runner-up of Topic B "Full-Element Change Detection in High-Resolution Remote Sensing Images" in the 2nd "Jilin-1" Cup Youth Innovation and Entrepreneurship Competition for Satellite Remote Sensing Applications, Jilin Provincial Department of Education \| 第二届“吉林一号”杯卫星遥感应用青年创新创业大赛 赛题B“高分辨率遥感影像全要素变化检测研究”亚军，吉林省教育厅
@@ -17,6 +20,8 @@
 
 # 🏊‍♂️ Sports
 
+- *2025.11*: 荣获首届清华大学马约翰杯匹克球比赛冠军 🏆.
+- *2025.06*: 清华大学游泳研究生联赛50米蛙泳**冠军**、100米蛙泳**冠军**、4×50米自由泳接力**冠军**，助力电子系成就**四连冠** 🏆.
 - *2024.12*: 清华大学马约翰杯游泳比赛甲组男子200米蛙泳**冠军**、100米蛙泳第四、6×50米自由泳接力**冠军**、4×50米混合泳接力亚军，助力电子系问鼎游泳马杯甲组**冠军** 🏆.
 - *2024.11*: 全国城市游泳系列赛青岛站，18-24岁组200米蛙泳**冠军**、200米仰泳**冠军** 🏆.
 - *2024.09*: 第24届全国成人游泳锦标赛（成人游泳爱好者国内最高赛事），18-24岁组200米蛙泳**冠军**、200米仰泳**冠军** 🏆.
@@ -30,3 +35,11 @@
 - *2021.11*: 清华大学马约翰杯游泳比赛甲组男子200米蛙泳**冠军** 🏆.
 - *2021.03*: 清华大学马约翰杯游泳比赛甲组男子200米蛙泳亚军、100米蛙泳第四 🏅.
 - *2018.12*: 清华大学马约翰杯游泳比赛乙组男子100米蛙泳**冠军**、50米蛙泳**冠军** 🏆.
+
+
+- *2026.2*: 我们的论文 "JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework" 被 IEEE TIM 接收！🎉
+- *2026.1*: 我们的论文 "UnlearningCD: Distill to Forget in Change Detection via Perturbed Knowledge" 被 IEEE JSTARS 接收！🎉
+- *2025.11*: 荣获第五届《雷达学报》博士论坛最佳报告.
+- *2025.10*: 荣获《中国图象图形学报》研究生学术沙龙杰出报告.
+- *2025.10*: 荣获研究生综合奖学金（一等）.
+- *2025.06*: 荣获清华大学电子之星奖学金.
