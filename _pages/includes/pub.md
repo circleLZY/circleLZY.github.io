@@ -4,6 +4,30 @@
 
 ## Remote Sensing Change Detection
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2025</div><img src='images/mtkd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework](https://arxiv.org/pdf/2502.13407) \\
+**Ziyuan Liu**, Ruifei Zhu, Long Gao, Yuanxiu Zhou, Jingyu Ma, Yuantao Gu
+
+[**Code**](https://github.com/circleLZY/MTKD-CD) ![](https://img.shields.io/github/stars/circleLZY/MTKD-CD?style=social)
+  -  We introduce **JL1-CD**, a new sub-meter, all-inclusive open-source CD dataset comprising 5,000 pairs of remote sensing image patches with a resolution of 0.5–0.75 meters. 
+  -  We propose a multi-teacher knowledge distillation (MTKD) framework, which significantly improves the performance of CD models with various network architectures and parameter sizes without increasing any computational or time cost during inference.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JSTARS 2025</div><img src='images/unlearncd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[UnlearningCD: Distill to Forget in Change Detection via Perturbed Knowledge](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11359002) \\
+**Ziyuan Liu**, Jiawei Zhang, Qitan Shi, Yuantao Gu
+  -  We propose **U**nlearning algorithm based on **P**erturbed **K**nowledge distillation (UPK), a machine unlearning method applied to CD tasks for the first time.
+  -  The proposed method requires only 10% of the iterations for training the original model and surpasses existing approaches across both closed-box and open-box settings, in both SCD and BDA tasks, and on CNN, Transformer, and Mamba model backbones.
+  -  During inference, the proposed method incurs no additional inference time, and the training resource consumption for open-box UPK is much lower than that of baseline methods.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JSTARS 2025</div><img src='images/mbsd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -22,19 +46,6 @@
   -  We propose a unified **M**ulti**M**odal **CD** framework (M$^2$CD), which is highly versatile and robust, compatible with various backbone architectures.
   -  By introducing modality-specialized MoE modules into the backbone and innovatively proposing an Optical-to-SAR transition path (O2SP) for self-distillation guidance, we reduce the feature space discrepancies between different modalities and alleviate the model’s burden in processing multimodal data.
   -  Extensive experiments on the CAU-Flood dataset demonstrate that M2CD outperforms all SOTA methods.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2025</div><img src='images/mtkd.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework](https://arxiv.org/pdf/2502.13407) \\
-**Ziyuan Liu**, Ruifei Zhu, Long Gao, Yuanxiu Zhou, Jingyu Ma, Yuantao Gu
-
-[**Code**](https://github.com/circleLZY/MTKD-CD) ![](https://img.shields.io/github/stars/circleLZY/MTKD-CD?style=social)
-  -  We introduce **JL1-CD**, a new sub-meter, all-inclusive open-source CD dataset comprising 5,000 pairs of remote sensing image patches with a resolution of 0.5–0.75 meters. 
-  -  We propose a multi-teacher knowledge distillation (MTKD) framework, which significantly improves the performance of CD models with various network architectures and parameter sizes without increasing any computational or time cost during inference.
 </div>
 </div>
 
