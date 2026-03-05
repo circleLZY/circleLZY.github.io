@@ -23,7 +23,6 @@
 **Ziyuan Liu**, Jiawei Zhang, Qitan Shi, Yuantao Gu
   -  We propose **U**nlearning algorithm based on **P**erturbed **K**nowledge distillation (UPK), a machine unlearning method applied to CD tasks for the first time.
   -  The proposed method requires only 10% of the iterations for training the original model and surpasses existing approaches across both closed-box and open-box settings, in both SCD and BDA tasks, and on CNN, Transformer, and Mamba model backbones.
-  -  During inference, the proposed method incurs no additional inference time, and the training resource consumption for open-box UPK is much lower than that of baseline methods.
 </div>
 </div>
 
