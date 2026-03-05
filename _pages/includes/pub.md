@@ -4,7 +4,7 @@
 
 ## Remote Sensing Change Detection
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2025</div><img src='images/mtkd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2026</div><img src='images/mtkd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework](https://arxiv.org/pdf/2502.13407) \\
@@ -16,7 +16,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JSTARS 2025</div><img src='images/unlearncd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JSTARS 2026</div><img src='images/unlearningcd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [UnlearningCD: Distill to Forget in Change Detection via Perturbed Knowledge](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11359002) \\
