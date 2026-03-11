@@ -75,6 +75,7 @@
 </div>
 
 ## Others
-
+- **[Agent]** [MiroFlow: Towards High-Performance and Robust Open-Source Agent Framework for General Deep Research Tasks](https://arxiv.org/pdf/2602.22808), Shiqian Su, ..., **Ziyuan Liu**, ... . 2026.
+- **[Agent]** [MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling](https://arxiv.org/pdf/2511.11793), MiroMind Team. 2025.
 - **[Diffusion Model]** [Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](https://arxiv.org/pdf/2503.10103), Jiawei Zhang, **Ziyuan Liu**, Leon Yan, Gen Li, Yuantao Gu. NeurIPS 2025.
 - **[Open Source]*** [Open-CD:A Comprehensive Toolbox for Change Detection](https://arxiv.org/pdf/2407.15317), Kaiyu Li\*, ..., **Ziyuan Liu\***, ... . ACM MM 2025.
