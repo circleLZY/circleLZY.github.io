@@ -1,5 +1,6 @@
 # 🎖 Honors and Awards
 
+- 2026, 清华大学三好学生.
 - 2025, Best Presentation at the 5th Doctoral Forum of the Journal of Radars \| 第五届《雷达学报》博士论坛最佳报告.
 - 2025, Outstanding Presentation at the Graduate Academic Salon of the Journal of Image and Graphics \| 《中国图象图形学报》研究生学术沙龙杰出报告.
 - 2025, First-Prize Comprehensive Scholarship for Graduate Students, Tsinghua University \| 清华大学研究生综合奖学金（一等）.
