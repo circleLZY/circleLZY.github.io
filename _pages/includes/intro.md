@@ -4,6 +4,6 @@ I received my bachelor's degree from [Tsinghua University](https://www.tsinghua.
 
 Feel free to reach out for collaborations!
 
-# 🔍Research Topics
+# 🔍 Research Topics
 
 - Agentic Post-Training, DeepResearch Agent, Knowledge Distillation, Change Detection, etc. 
