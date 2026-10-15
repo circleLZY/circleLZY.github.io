@@ -28,6 +28,19 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
 </div>
 
 
+<!-- Figure 1 from Open-CD, arXiv:2407.15317v2, page 6. -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/opencd.png' alt="Overview of the Open-CD toolbox architecture" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Open-CD: A Comprehensive Toolbox for Change Detection](https://arxiv.org/pdf/2407.15317) \\
+Kaiyu Li\*, Jiawei Jiang\*, ..., **Ziyuan Liu\***, ..., Xiangyong Cao (\*Equal contribution.)
+
+[**Code**](https://github.com/likyoo/open-cd) ![](https://img.shields.io/github/stars/likyoo/open-cd?style=social)
+  - We introduce **Open-CD**, a unified, modular toolbox for binary and semantic change detection, integrating diverse models, datasets, training pipelines, and analysis tools.
+  - We benchmark representative methods under a unified evaluation protocol, providing a flexible platform for reproducing existing algorithms and developing new change detectors.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">JSTARS 2025</div><img src='images/mbsd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -49,6 +62,13 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
 </div>
 </div>
 
+
+## Others
+- **[Diffusion Model]** [Stage-wise Distortion-Perception Traversal in Zero-shot Inverse Problems with Diffusion Models](https://arxiv.org/abs/2605.28711), Jiawei Zhang, **Ziyuan Liu**, ..., Yuantao Gu. ICML 2026.
+- **[LLM]** [MiroFlow: Towards High-Performance and Robust Open-Source Agent Framework for General Deep Research Tasks](https://arxiv.org/pdf/2602.22808), Shiqian Su, ..., **Ziyuan Liu**, ... . 2026.
+- **[LLM]** [MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling](https://arxiv.org/pdf/2511.11793), MiroMind Team. 2025.
+- **[Diffusion Model]** [Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](https://arxiv.org/pdf/2503.10103), Jiawei Zhang, **Ziyuan Liu**, ..., Yuantao Gu. NeurIPS 2025.
+- **[Knowledge Distillation]** [S3AT: Self-Paced, Self-Distilled, and Self-Finetuned Adversarial Training for Robust Automatic Modulation Recognition](https://ieeexplore.ieee.org/abstract/document/11298184/), Wenyu Wang, Zhu Lei, **Ziyuan Liu**, ... . TCCN 2025.
 
 ## SAR Image Processing
 
@@ -74,11 +94,3 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
   - This enhancement is achieved without introducing extra complexity in terms of computational time and memory utilization during inference.
 </div>
 </div>
-
-## Others
-- **[Diffusion Model]** [Stage-wise Distortion-Perception Traversal in Zero-shot Inverse Problems with Diffusion Models](https://arxiv.org/abs/2605.28711), Jiawei Zhang, **Ziyuan Liu**, ..., Yuantao Gu. ICML 2026.
-- **[LLM]** [MiroFlow: Towards High-Performance and Robust Open-Source Agent Framework for General Deep Research Tasks](https://arxiv.org/pdf/2602.22808), Shiqian Su, ..., **Ziyuan Liu**, ... . 2026.
-- **[LLM]** [MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling](https://arxiv.org/pdf/2511.11793), MiroMind Team. 2025.
-- **[Diffusion Model]** [Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](https://arxiv.org/pdf/2503.10103), Jiawei Zhang, **Ziyuan Liu**, ..., Yuantao Gu. NeurIPS 2025.
-- **[Knowledge Distillation]** [S3AT: Self-Paced, Self-Distilled, and Self-Finetuned Adversarial Training for Robust Automatic Modulation Recognition](https://ieeexplore.ieee.org/abstract/document/11298184/), Wenyu Wang, Zhu Lei, **Ziyuan Liu**, ... . TCCN 2025.
-- **[Open Source]** [Open-CD:A Comprehensive Toolbox for Change Detection](https://arxiv.org/pdf/2407.15317), Kaiyu Li\*, ..., **Ziyuan Liu\***, ... . ACM MM 2025.
