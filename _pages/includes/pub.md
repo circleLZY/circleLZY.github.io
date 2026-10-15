@@ -3,6 +3,47 @@
 {% capture scholar_badge_data_url %}https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data_shieldsio.json{% endcapture %}
 My full paper list can be found at <a href="{{ site.author.googlescholar }}"><img src="https://img.shields.io/endpoint?url={{ scholar_badge_data_url | url_encode }}&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations&amp;cacheSeconds=300" alt="Total citations on Google Scholar" style="vertical-align: middle;"></a>.
 
+## LLM
+
+<!-- Figure 1 from Iris, arXiv:2609.04304v2, page 1. -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report 2026</div><img src='images/iris.png' alt="Iris performance across four agentic search benchmarks" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Iris: Climbing to the Search Frontier](https://arxiv.org/pdf/2609.04304) \\
+AllSpark Team (First core contributor: **Ziyuan Liu**)
+
+[**Code**](https://github.com/AllSpark-Research/Iris) ![](https://img.shields.io/github/stars/AllSpark-Research/Iris?style=social) | [**Models**](https://huggingface.co/collections/AllSpark-Research/iris)
+  - We develop **Iris-mini and Iris-pro**, search agents trained through multi-hop task construction, trajectory filtering, and iterative SFT-RL climbing against live web search.
+  - With context management, Iris achieves the strongest overall results among open-source search agents in the same parameter ranges across BrowseComp, BrowseComp-ZH, DeepSearchQA, and HLE.
+</div>
+</div>
+
+<!-- Figure 2 from MiroFlow, arXiv:2602.22808v1, page 4. -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report 2026</div><img src='images/miroflow.png' alt="Overview of the three-tier MiroFlow agent framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MiroFlow: Towards High-Performance and Robust Open-Source Agent Framework for General Deep Research Tasks](https://arxiv.org/pdf/2602.22808) \\
+MiroMind Team
+
+[**Code**](https://github.com/MiroMindAI/MiroFlow) ![](https://img.shields.io/github/stars/MiroMindAI/MiroFlow?style=social)
+  - We introduce **MiroFlow**, an open-source framework for general deep research, combining flexible agent graphs, robust workflow execution, and an optional heavy-reasoning mode.
+  - A unified configuration delivers strong, reproducible results across GAIA, BrowseComp, HLE, xBench-DeepSearch, and FutureX.
+</div>
+</div>
+
+<!-- Figure 2 from MiroThinker, arXiv:2511.11793v3, page 4. -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report 2025</div><img src='images/mirothinker.png' alt="MiroThinker architecture with tools, context management, and interactive scaling" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling](https://arxiv.org/pdf/2511.11793) \\
+MiroMind Team
+
+[**Code**](https://github.com/MiroMindAI/MiroThinker) ![](https://img.shields.io/github/stars/MiroMindAI/MiroThinker?style=social) | [**Model**](https://huggingface.co/miromind-ai/MiroThinker-v1.0-72B)
+  - We introduce **MiroThinker v1.0**, an open-source research agent that scales model size, context length, and the depth of agent-environment interactions.
+  - With a 256K context window and up to 600 tool calls per task, the model sustains long research trajectories and achieves strong results on GAIA, HLE, and BrowseComp.
+</div>
+</div>
+
 ## Remote Sensing Change Detection
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIM 2026</div><img src='images/mtkd.png' alt="sym" width="100%"></div></div>
@@ -33,7 +74,7 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
 <div class='paper-box-text' markdown="1">
 
 [Open-CD: A Comprehensive Toolbox for Change Detection](https://arxiv.org/pdf/2407.15317) \\
-Kaiyu Li\*, Jiawei Jiang\*, ..., **Ziyuan Liu\***, ..., Xiangyong Cao (\*Equal contribution.)
+Kaiyu Li\*, Jiawei Jiang\*, ..., **Ziyuan Liu\***, Yuantao Gu, ..., Xiangyong Cao
 
 [**Code**](https://github.com/likyoo/open-cd) ![](https://img.shields.io/github/stars/likyoo/open-cd?style=social)
   - We introduce **Open-CD**, a unified, modular toolbox for binary and semantic change detection, integrating diverse models, datasets, training pipelines, and analysis tools.
@@ -65,8 +106,6 @@ Kaiyu Li\*, Jiawei Jiang\*, ..., **Ziyuan Liu\***, ..., Xiangyong Cao (\*Equal c
 
 ## Others
 - **[Diffusion Model]** [Stage-wise Distortion-Perception Traversal in Zero-shot Inverse Problems with Diffusion Models](https://arxiv.org/abs/2605.28711), Jiawei Zhang, **Ziyuan Liu**, ..., Yuantao Gu. ICML 2026.
-- **[LLM]** [MiroFlow: Towards High-Performance and Robust Open-Source Agent Framework for General Deep Research Tasks](https://arxiv.org/pdf/2602.22808), Shiqian Su, ..., **Ziyuan Liu**, ... . 2026.
-- **[LLM]** [MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling](https://arxiv.org/pdf/2511.11793), MiroMind Team. 2025.
 - **[Diffusion Model]** [Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Learnable Linear Extrapolation](https://arxiv.org/pdf/2503.10103), Jiawei Zhang, **Ziyuan Liu**, ..., Yuantao Gu. NeurIPS 2025.
 - **[Knowledge Distillation]** [S3AT: Self-Paced, Self-Distilled, and Self-Finetuned Adversarial Training for Robust Automatic Modulation Recognition](https://ieeexplore.ieee.org/abstract/document/11298184/), Wenyu Wang, Zhu Lei, **Ziyuan Liu**, ... . TCCN 2025.
 
