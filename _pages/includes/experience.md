@@ -1,6 +1,6 @@
 
 # 📖 Educations
-- *2022.08-Now*, Ph.D. at [Department of Electronic Engineering, Tsinghua University](https://www.ee.tsinghua.edu.cn/), supervised by Prof. [Yuantao Gu](http://web.ee.tsinghua.edu.cn/guyuantao/)
+- *2022.08-Now*, Ph.D. at [Department of Electronic Engineering, Tsinghua University](https://www.ee.tsinghua.edu.cn/).
 - *2018.08-2022.06*, B.S. at [Department of Electronic Engineering, Tsinghua University](https://www.ee.tsinghua.edu.cn/).
   
 # 💻 Work Experiences
