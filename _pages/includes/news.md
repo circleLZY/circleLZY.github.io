@@ -1,5 +1,5 @@
 # 🔥 News
-- *2026.09*: 我们发布了技术报告 "[Iris: Climbing to the Search Frontier](https://arxiv.org/abs/2609.04304)"，Iris-mini 与 Iris-pro 在搜索基准上取得同规模开源 Search Agent 的最强综合表现！🚀
+- *2026.09*: 我们发布了技术报告 “[Iris: Climbing to the Search Frontier](https://arxiv.org/abs/2609.04304)”，Iris-mini 与 Iris-pro 在搜索基准上取得同规模开源 Search Agent 的最强综合表现！🚀
 - *2026.06*: 荣获清华大学三好学生.
 - *2026.05*: 我们的论文 "Stage-wise Distortion-Perception Traversal in Zero-shot Inverse Problems with Diffusion Models" 被 ICML 接收！🎉
 - *2026.02*: 我们的论文 "JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework" 被 IEEE TIM 接收！🎉
