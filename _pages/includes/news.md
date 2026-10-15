@@ -1,8 +1,8 @@
 # 🔥 News
-- *2026.09*: 我们发布了技术报告 “[Iris: Climbing to the Search Frontier](https://arxiv.org/abs/2609.04304)”，取得同规模开源 Search Agent 的最强综合表现！🚀 [模型权重](https://huggingface.co/collections/AllSpark-Research/iris)与[评测 Harness](https://github.com/AllSpark-Research/Iris/tree/main/Iris-Harness)均已开源，欢迎使用与交流！
+- *2026.09*: 我们发布了技术报告 “[Iris: Climbing to the Search Frontier](https://arxiv.org/abs/2609.04304)”，取得同规模开源 Search Agent 的最强综合表现 🚀！ [模型权重](https://huggingface.co/collections/AllSpark-Research/iris)与[评测 Harness](https://github.com/AllSpark-Research/Iris/tree/main/Iris-Harness)均已开源，欢迎使用与交流！
 - *2026.06*: 荣获清华大学三好学生.
-- *2026.05*: 我们的论文 "Stage-wise Distortion-Perception Traversal in Zero-shot Inverse Problems with Diffusion Models" 被 ICML 接收！🎉
-- *2026.02*: 我们的论文 "JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework" 被 IEEE TIM 接收！🎉
+- *2026.05*: 我们的论文 "[Stage-wise Distortion-Perception Traversal in Zero-shot Inverse Problems with Diffusion Models](https://arxiv.org/abs/2605.28711)" 被 ICML 接收！🎉
+- *2026.02*: 我们的论文 "[JL1-CD: A New Benchmark for Remote Sensing Change Detection and a Robust Multi-Teacher Knowledge Distillation Framework](https://arxiv.org/abs/2502.13407)" 被 IEEE TIM 接收！🎉
 - *2026.01*: 我们的论文 "UnlearningCD: Distill to Forget in Change Detection via Perturbed Knowledge" 被 IEEE JSTARS 接收！🎉
 - *2025.11*: 荣获第五届《雷达学报》博士论坛最佳报告.
 - *2025.10*: 荣获《中国图象图形学报》研究生学术沙龙杰出报告.

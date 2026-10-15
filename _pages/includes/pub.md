@@ -16,7 +16,7 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
 AllSpark Team (**First core contributor**)
 
 [**Project**](https://github.com/AllSpark-Research/Iris) ![](https://img.shields.io/github/stars/AllSpark-Research/Iris?style=social) | <span style="white-space: nowrap;"><a href="https://huggingface.co/collections/AllSpark-Research/iris"><strong>Weights</strong></a> <a href="https://huggingface.co/collections/AllSpark-Research/iris" title="Cumulative Hugging Face downloads: Iris-mini + Iris-pro. Updated daily."><img src="https://img.shields.io/endpoint?url={{ iris_downloads_url | url_encode }}&amp;style=social&amp;logo=huggingface" alt="Iris cumulative model downloads" style="vertical-align: middle;"></a></span>
-  - We develop Iris-mini (35B) and Iris-pro (397B).
+  - We develop **Iris-mini** (35B) and **Iris-pro** (397B).
   - Iris achieves the strongest overall results among open-source search agents in the same parameter ranges across BrowseComp, BrowseComp-ZH, DeepSearchQA, and HLE.
 </div>
 </div>
