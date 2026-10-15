@@ -9,7 +9,7 @@
 
 渲染入口为 `_pages/about.md`，通过 `include_relative` 依次拼入正文片段，再由 `_layouts/default.html` 添加导航、侧栏、样式和脚本。`/about/` 与 `/about.html` 重定向到 `/`。
 
-`_config.yml` 维护站点地址、作者信息、构建配置及插件；`_data/navigation.yml` 维护顶栏链接。GitHub Pages 发布站点，仓库中唯一的自定义 Actions 工作流用于抓取 Google Scholar 引用数据。
+`_config.yml` 维护站点地址、作者信息、构建配置及插件；`_data/navigation.yml` 维护顶栏链接。GitHub Pages 发布站点，独立的 Actions 工作流分别更新 Google Scholar 引用数据和 Hugging Face 模型下载量。
 
 ## 更新内容的位置
 
@@ -58,6 +58,16 @@
 爬虫的离线测试可使用 `python -m unittest discover -s google_scholar_crawler -p 'test_*.py' -v` 运行，覆盖总引用数、零引用、单篇 ID、异常数据不覆盖已有文件、缺失 Secret 的报错。真实抓取完成前不会将错误或空值替换成零引用数。
 
 Google Analytics 只在 `_config.yml` 配置非空 `google_analytics_id` 后加载。页面底部还引用了 RevolverMaps 脚本。
+
+## 模型下载量徽章
+
+LLM 论文的 Weights 后显示 Hugging Face **累计下载量**，使用 API 的 `downloadsAllTime` 字段；`downloads` 仅代表近 30 天，不用于此处。Iris 汇总官方 `Iris-mini` 和 `Iris-pro`；MiroThinker 汇总官方 `MiroThinker-v1.0-8B`、`30B`、`72B`。不包括其他版本、第三方副本或量化版，也不表示独立用户数。
+
+`.github/scripts/update_model_downloads.py` 使用 Python 标准库抓取并校验固定模型列表，无需 Token 或额外依赖。需要增减统计模型时修改其 `MODEL_GROUPS`，并同步论文徽章的提示文字。全部模型返回有效累计计数后才生成 JSON，缺失字段、错误响应或网络失败不会发布部分总数或覆盖原有数据。
+
+`.github/workflows/model_downloads.yaml` 在相关脚本变更后以及每天 08:23 UTC（北京时间 16:23）运行，也支持手动运行。数据发布到独立的 `model-download-stats` 分支（已初始化）：`downloads.json` 保存时间、统计口径及各模型计数，`iris.json` 和 `mirothinker-v1.json` 为 Shields.io 端点。任务与 Scholar 抓取互不依赖，无需每日重建主页；徽章可能有约一小时缓存。
+
+验证命令：`python -B -m unittest discover -s .github/scripts -p 'test_*.py' -v`；手动抓取：`python .github/scripts/update_model_downloads.py /tmp/model-downloads`。
 
 ## 本地运行与验证
 

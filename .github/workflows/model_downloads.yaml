@@ -1,0 +1,55 @@
+name: Update Model Downloads
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/scripts/update_model_downloads.py
+      - .github/scripts/test_model_downloads.py
+      - .github/workflows/model_downloads.yaml
+  schedule:
+    - cron: '23 8 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: model-download-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Test model download aggregation
+        run: python -B -m unittest discover -s .github/scripts -p 'test_*.py' -v
+
+      - name: Fetch cumulative model downloads
+        run: python .github/scripts/update_model_downloads.py "$RUNNER_TEMP/model-downloads"
+
+      - name: Check out model download data branch
+        uses: actions/checkout@v6
+        with:
+          ref: model-download-stats
+          path: .model-download-stats
+
+      - name: Publish model download data
+        run: |
+          cp "$RUNNER_TEMP/model-downloads/"*.json .model-download-stats/
+          cd .model-download-stats
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add downloads.json iris.json mirothinker-v1.json
+          if git diff --cached --quiet; then
+            echo 'Model download data is unchanged.'
+            exit 0
+          fi
+          git commit -m 'Update cumulative model downloads'
+          git push origin HEAD:model-download-stats

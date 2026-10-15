@@ -5,6 +5,9 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
 
 ## LLM
 
+{% capture iris_downloads_url %}https://raw.githubusercontent.com/{{ site.repository }}/model-download-stats/iris.json{% endcapture %}
+{% capture mirothinker_downloads_url %}https://raw.githubusercontent.com/{{ site.repository }}/model-download-stats/mirothinker-v1.json{% endcapture %}
+
 <!-- Figure 1 from Iris, arXiv:2609.04304v2, page 1. -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report 2026</div><img src='images/iris.png' alt="Iris performance across four agentic search benchmarks" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -12,7 +15,7 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
 [Iris: Climbing to the Search Frontier](https://arxiv.org/pdf/2609.04304) \\
 AllSpark Team (**First core contributor**)
 
-[**Project**](https://github.com/AllSpark-Research/Iris) ![](https://img.shields.io/github/stars/AllSpark-Research/Iris?style=social) | [**Weights**](https://huggingface.co/collections/AllSpark-Research/iris)
+[**Project**](https://github.com/AllSpark-Research/Iris) ![](https://img.shields.io/github/stars/AllSpark-Research/Iris?style=social) | <span style="white-space: nowrap;"><a href="https://huggingface.co/collections/AllSpark-Research/iris"><strong>Weights</strong></a> <a href="https://huggingface.co/collections/AllSpark-Research/iris" title="Cumulative Hugging Face downloads: Iris-mini + Iris-pro. Updated daily."><img src="https://img.shields.io/endpoint?url={{ iris_downloads_url | url_encode }}&amp;style=social&amp;logo=huggingface" alt="Iris cumulative model downloads" style="vertical-align: middle;"></a></span>
   - We develop Iris-mini (35B) and Iris-pro (397B).
   - Iris achieves the strongest overall results among open-source search agents in the same parameter ranges across BrowseComp, BrowseComp-ZH, DeepSearchQA, and HLE.
 </div>
@@ -38,7 +41,7 @@ MiroMind Team
 [MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling](https://arxiv.org/pdf/2511.11793) \\
 MiroMind Team
 
-[**Project**](https://github.com/MiroMindAI/MiroThinker) ![](https://img.shields.io/github/stars/MiroMindAI/MiroThinker?style=social) | [**Weights**](https://huggingface.co/miromind-ai/MiroThinker-v1.0-72B)
+[**Project**](https://github.com/MiroMindAI/MiroThinker) ![](https://img.shields.io/github/stars/MiroMindAI/MiroThinker?style=social) | <span style="white-space: nowrap;"><a href="https://huggingface.co/miromind-ai/MiroThinker-v1.0-72B"><strong>Weights</strong></a> <a href="https://huggingface.co/miromind-ai/MiroThinker-v1.0-72B" title="Cumulative Hugging Face downloads: MiroThinker v1.0 8B + 30B + 72B. Updated daily."><img src="https://img.shields.io/endpoint?url={{ mirothinker_downloads_url | url_encode }}&amp;style=social&amp;logo=huggingface" alt="MiroThinker v1.0 cumulative model downloads" style="vertical-align: middle;"></a></span>
   - We introduce **MiroThinker**, an open-source research agent that scales model size, context length, and the depth of agent-environment interactions.
   - With a 256K context window and up to 600 tool calls per task, the model sustains long research trajectories and achieves strong results on GAIA, HLE, and BrowseComp.
 </div>
