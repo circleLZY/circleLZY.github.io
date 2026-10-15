@@ -9,6 +9,8 @@
 title                    : "Ziyuan Liu (刘子源)"
 description              : "Ph.D. Student, Tsinghua University"
 repository               : "circleLZY/circleLZY.github.io"
+url                      : "https://circlelzy.github.io"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -65,6 +67,7 @@ include:
   - _pages
   - files
 exclude:
+  - _pages/includes
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

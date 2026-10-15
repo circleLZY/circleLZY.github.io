@@ -1,3 +1,4 @@
+本仓库为 [Ziyuan Liu（刘子源）的个人主页](https://circlelzy.github.io/)。项目结构、内容更新入口及本地验证方式见 [维护指南](docs/MAINTENANCE-zh.md)。以下保留 AcadHomepage 原模板说明。
 
 <h1 align="center">
 AcadHomepage

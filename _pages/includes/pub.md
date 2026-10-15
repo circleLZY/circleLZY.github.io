@@ -32,7 +32,7 @@
 
 [A Novel Multi-Branch Self-Distillation Framework for Optimizing Remote Sensing Change Detection](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11122566) \\
 **Ziyuan Liu**, Jiawei Zhang, Wenyu Wang, Yuantao Gu
-  -  We propose the MBSD training framework, anovel and generalizable self-distillation learning paradigm designed for CD tasks.
+  -  We propose the MBSD training framework, a novel and generalizable self-distillation learning paradigm designed for CD tasks.
   -  The proposed framework is single-stage, end-to-end, and incurs only a modest memory and time increase during training, with no extra cost during inference.
 </div>
 </div>
