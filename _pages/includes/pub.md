@@ -1,6 +1,7 @@
 # 📝 Selected Publications
 
-<!-- My full paper list can be found at <a href='https://scholar.google.com/citations?user=lFZpfE4AAAAJ'><img src="https://img.shields.io/endpoint?url=https://cdn.jsdelivr.net/gh/circleLZY/circleLZY.github.io@google-scholar-stats/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+{% capture scholar_badge_data_url %}https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data_shieldsio.json{% endcapture %}
+My full publication list is available on <a href="{{ site.author.googlescholar }}">Google Scholar <img src="https://img.shields.io/endpoint?url={{ scholar_badge_data_url | url_encode }}&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations&amp;cacheSeconds=300" alt="Total citations on Google Scholar" style="vertical-align: middle;"></a>.
 
 ## Remote Sensing Change Detection
 

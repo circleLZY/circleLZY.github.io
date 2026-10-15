@@ -43,7 +43,7 @@
 
 ## 引用数据与外部服务
 
-`.github/workflows/google_scholar_crawler.yaml` 在 `page_build` 后及每天 08:00 UTC（北京时间 16:00）计划运行，实际启动时间可能延迟。脚本读取仓库 Secret `GOOGLE_SCHOLAR_ID`，调用 `google_scholar_crawler/main.py`，将 JSON 写入 `google-scholar-stats` 分支。
+`.github/workflows/google_scholar_crawler.yaml` 在推送 `main` 后及每天 08:00 UTC（北京时间 16:00）计划运行，也支持在 Actions 页面手动运行，实际启动时间可能延迟。使用 Python 3.12，脚本读取仓库 Secret `GOOGLE_SCHOLAR_ID`，调用 `google_scholar_crawler/main.py`，将 JSON 写入 `google-scholar-stats` 分支。工作流显式配置写入权限及机器人提交身份，按顺序运行，保留数据分支提交历史；抓取或校验失败时不会发布数据。
 
 `_includes/fetch_google_scholar_stats.html` 从 jsDelivr 或 GitHub Raw 读取 JSON，只在页面存在引用数元素时发起请求。总引用数元素为 `id="total_cit"`；单篇引用数示例：
 
@@ -51,7 +51,11 @@
 <span class="show_paper_citations" data="SCHOLAR_ID:PUBLICATION_ID"></span>
 ```
 
-当前正文未启用上述引用数元素，论文区的总引用 badge 也处于注释状态。GitHub Stars badge 为独立的 Shields.io 图片。
+论文区已启用 Google Scholar 总引用数徽章，点击可进入作者主页。Shields.io 读取数据分支的 `gs_data_shieldsio.json`，直接使用 Google Scholar 返回的总引用数，不累加单篇引用数。徽章直接从 GitHub Raw 读取，避免额外的 jsDelivr 缓存层；Shields.io 和浏览器仍可能有数分钟缓存。当前正文未启用上述 JS 引用数元素。GitHub Stars badge 为另一张独立的 Shields.io 图片。
+
+爬虫保留 `scholarly==1.5.1`，并固定兼容依赖 `bibtexparser==1.4.4`。不要直接升级到 bibtexparser 2.x：它移除了 scholarly 依赖的 `bibtexparser.bibdatabase` 模块。更新依赖时需实际检查 scholarly 导入和数据抓取。
+
+爬虫的离线测试可使用 `python -m unittest discover -s google_scholar_crawler -p 'test_*.py' -v` 运行，覆盖总引用数、零引用、单篇 ID、异常数据不覆盖已有文件、缺失 Secret 的报错。真实抓取完成前不会将错误或空值替换成零引用数。
 
 Google Analytics 只在 `_config.yml` 配置非空 `google_analytics_id` 后加载。页面底部还引用了 RevolverMaps 脚本。
 
@@ -88,8 +92,9 @@ git diff --check
 
 首次本地检查通过：Jekyll 生产模式安全构建、全部导航锚点及本地资源检查、manifest 图标与 sitemap 检查、引用脚本的空元素／缺失数据／零引用数场景；浏览器确认桌面与 390px 手机布局、菜单跳转、8 张图片加载和 2 处数学公式渲染，未捕获 JS 错误。该次构建提示未提供 GitHub API 认证，当时尚未提交或触发远端 Actions。
 
-待后续处理：
+引用任务后续排查：在干净的 Python 3.12 环境中复现 `ModuleNotFoundError: No module named 'bibtexparser.bibdatabase'`，锁定 bibtexparser 1.4.4 后实际抓取成功。2026-10-15 返回总引用数 232、论文 19 篇；该数值为排查时快照，线上以数据分支为准。参考站点 likyoo.github.io 使用相同爬虫与 Shields.io 方案，其当时的最新抓取也失败，JSON 停留在 2026-09-06。
 
-- 最近 5 次引用更新任务均失败，最近一份可读取数据的 `updated` 为 `2026-09-01 12:57:15.803369`。公开页面只能定位到 `Run` 步骤退出码 1，详细日志需要 GitHub 登录，未据此推断根因或修改工作流。[失败任务](https://github.com/circleLZY/circleLZY.github.io/actions/runs/38570014572)。
+其他待后续处理：
+
 - 本轮环境无法解析 `rf.revolvermaps.com`；尚不能确认是服务还是网络问题，保留现有引用。
 - 内容更新时复核简介中的 `fourth-year`、仍标记为 `Now` 的经历，以及最新动态。目前 News 最新条目为 2026.06，体育经历最新条目为 2026.03；本轮没有推断或补写个人近况。
