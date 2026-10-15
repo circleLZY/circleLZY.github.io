@@ -14,5 +14,5 @@
 - **[Open-CD](https://github.com/likyoo/open-cd)** ![Open-CD GitHub stars](https://img.shields.io/github/stars/likyoo/open-cd?style=social) · **核心开发** \\
   基于 OpenMMLab 的综合变化检测工具箱，支持多种模型的训练与评测
 
-- **国家自然科学基金重点项目** · **核心负责人** \\
+- **国家自然科学基金重点项目** · **核心负责** \\
   复杂电磁场景微波图像智能轻量化效能梯度感知技术
