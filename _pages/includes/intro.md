@@ -1,8 +1,8 @@
 # 👋 About Me
 
-I received my bachelor's degree from [Tsinghua University](https://www.tsinghua.edu.cn/), and I am now a fourth-year Ph.D. student, advised by Prof. Yuantao Gu. I am currently interning with [Xiaohongshu's AllSpark-Pevek foundation model team](https://huggingface.co/AllSpark-Research), focusing on Agentic Post-Training and Search/Cowork Agents.
+I received my bachelor's degree from [Tsinghua University](https://www.tsinghua.edu.cn/), where I am now a fifth-year Ph.D. student advised by Prof. Yuantao Gu. My research focuses on Agentic Post-Training and Search/Cowork Agents.
 
-Feel free to reach out for collaborations!
+**I am seeking new graduate roles in LLM post-training.** Feel free to reach out about opportunities or collaborations! (WeChat: **circleLZY**)
 
 # 🔍 Research Topics
 
