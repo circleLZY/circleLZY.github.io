@@ -115,7 +115,7 @@ Kaiyu Li\*, Jiawei Jiang\*, ..., **Ziyuan Liu\***, Yuantao Gu, ..., Xiangyong Ca
 [DSRKD: Joint Despecking and Super-Resolution of SAR Images via Knowledge Distillation](https://ieeexplore.ieee.org/abstract/document/10606284) \\
 **Ziyuan Liu**, Shaoping Wang, Ying Li, Yuantao Gu, Quan Yu
 
-  - We propose the DSRKD network, with an encoder–upscaling–decoder architecture that allows for SR at various resolution scales. The encoder and decoder can also be replaced with various more complex modules, and various distillation methods can be easily added, making it a simple and efficient baseline for despeckling SR.
+  - We propose the **DSRKD** network, with an encoder–upscaling–decoder architecture that allows for SR at various resolution scales. The encoder and decoder can also be replaced with various more complex modules, and various distillation methods can be easily added, making it a simple and efficient baseline for despeckling SR.
   - We innovatively combine the SR of speckled images with denoising using knowledge distillation (KD), significantly improving the performance of the model without introducing any additional computational overhead during inference.
 </div>
 </div>
