@@ -6,4 +6,4 @@ I received my bachelor's degree from [Tsinghua University](https://www.tsinghua.
 
 # 🔍 Research Topics
 
-- Agentic Post-Training, Search/Cowork Agent, Change Detection, etc.
+- LLM Post-Training, Search/Cowork Agents, Change Detection, etc.
