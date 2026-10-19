@@ -2,7 +2,7 @@
 
 {% capture iris_project_downloads_url %}https://raw.githubusercontent.com/{{ site.repository }}/model-download-stats/iris.json{% endcapture %}
 
-- **[Iris](https://github.com/AllSpark-Research/Iris)** ![Iris GitHub stars](https://img.shields.io/github/stars/AllSpark-Research/Iris?style=social) | <span style="white-space: nowrap;"><a href="https://huggingface.co/collections/AllSpark-Research/iris"><strong>Weights</strong></a> <a href="https://huggingface.co/collections/AllSpark-Research/iris" title="Cumulative Hugging Face downloads: Iris-mini + Iris-pro. Updated daily."><img src="https://img.shields.io/endpoint?url={{ iris_project_downloads_url | url_encode }}&amp;style=social&amp;logo=huggingface" alt="Iris cumulative model downloads" style="vertical-align: middle;"></a></span> · **核心开发** \\
+- **[Iris](https://github.com/AllSpark-Research/Iris)** ![Iris GitHub stars](https://img.shields.io/github/stars/AllSpark-Research/Iris?style=social) | <span style="white-space: nowrap;"><a href="https://huggingface.co/collections/AllSpark-Research/iris"><strong>Weights</strong></a> <a href="https://huggingface.co/collections/AllSpark-Research/iris" title="Cumulative Hugging Face downloads: Iris-mini + Iris-pro. Updated daily."><img src="https://img.shields.io/endpoint?url={{ iris_project_downloads_url | url_encode }}&amp;style=social&amp;logo=huggingface" alt="Iris cumulative model downloads" style="vertical-align: middle;"></a></span> · **主导开发** \\
   Iris-mini、Iris-pro 取得同等参数规模下开源 Search Agent 的最强综合表现，模型权重及完整 Harness 均已开源
 
 - **[Relax](https://github.com/redai-studio/Relax)** ![Relax GitHub stars](https://img.shields.io/github/stars/redai-studio/Relax?style=social) · **参与开发** \\
