@@ -19,7 +19,7 @@
   ],
   "email_domain": "@mails.tsinghua.edu.cn",
   "homepage": "https://circlelzy.github.io/",
-  "citedby": 232,
+  "citedby": 235,
   "publications": {
     "lFZpfE4AAAAJ:YsMSGLbcyi4C": {
       "container_type": "Publication",
@@ -30,7 +30,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:YsMSGLbcyi4C",
-      "num_citations": 71,
+      "num_citations": 72,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4581200673109744279,11669734183149342986,15271246747544430237",
       "cites_id": [
         "4581200673109744279",
@@ -81,7 +81,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:LkGwnXOMwfcC",
-      "num_citations": 26,
+      "num_citations": 27,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=271861590935965615,13304443506874401236,9803274143686995501",
       "cites_id": [
         "271861590935965615",
@@ -104,21 +104,6 @@
         "15515201219644297774"
       ]
     },
-    "lFZpfE4AAAAJ:u-x6o8ySG0sC": {
-      "container_type": "Publication",
-      "source": "AUTHOR_PUBLICATION_ENTRY",
-      "bib": {
-        "title": "SAR image compression with inherent denoising capability through knowledge distillation",
-        "pub_year": "2024"
-      },
-      "filled": false,
-      "author_pub_id": "lFZpfE4AAAAJ:u-x6o8ySG0sC",
-      "num_citations": 14,
-      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10625056449028599411",
-      "cites_id": [
-        "10625056449028599411"
-      ]
-    },
     "lFZpfE4AAAAJ:Tyk-4Ss8FVUC": {
       "container_type": "Publication",
       "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -128,10 +113,25 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:Tyk-4Ss8FVUC",
-      "num_citations": 12,
+      "num_citations": 14,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9408108448825674735",
       "cites_id": [
         "9408108448825674735"
+      ]
+    },
+    "lFZpfE4AAAAJ:u-x6o8ySG0sC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "SAR image compression with inherent denoising capability through knowledge distillation",
+        "pub_year": "2024"
+      },
+      "filled": false,
+      "author_pub_id": "lFZpfE4AAAAJ:u-x6o8ySG0sC",
+      "num_citations": 13,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10625056449028599411",
+      "cites_id": [
+        "10625056449028599411"
       ]
     },
     "lFZpfE4AAAAJ:Y0pCki6q_DkC": {
@@ -295,7 +295,7 @@
       "num_citations": 0
     }
   },
-  "citedby5y": 232,
+  "citedby5y": 235,
   "hindex": 7,
   "hindex5y": 7,
   "i10index": 7,
@@ -303,7 +303,7 @@
   "cites_per_year": {
     "2024": 4,
     "2025": 52,
-    "2026": 175
+    "2026": 178
   },
-  "updated": "2026-10-15T10:16:19+00:00"
+  "updated": "2026-10-19T11:36:00+00:00"
 }
