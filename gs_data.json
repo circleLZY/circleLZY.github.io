@@ -13,9 +13,8 @@
   "affiliation": "Ph.D student, Tsinghua University",
   "organization": 15442380624744264287,
   "interests": [
-    "Agentic PostTrain",
-    "Cowork/DeepResearch",
-    "Large Language Model"
+    "LLM Post-Training",
+    "Cowork/Search Agents"
   ],
   "email_domain": "@mails.tsinghua.edu.cn",
   "homepage": "https://circlelzy.github.io/",
@@ -305,5 +304,5 @@
     "2025": 52,
     "2026": 178
   },
-  "updated": "2026-10-19T11:36:00+00:00"
+  "updated": "2026-10-20T13:11:45+00:00"
 }
