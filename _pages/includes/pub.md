@@ -13,7 +13,7 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
 <div class='paper-box-text' markdown="1">
 
 [Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training](https://arxiv.org/pdf/2610.26887) \\
-AllSpark Team (**Second core contributor**)
+AllSpark Team (**Core contributor**)
 
 [**Project**](https://github.com/AllSpark-Research/AgentEnv/tree/main/Navalia) [![AgentEnv GitHub stars](https://img.shields.io/github/stars/AllSpark-Research/AgentEnv?style=social)](https://github.com/AllSpark-Research/AgentEnv/tree/main)
   - We introduce **Navalia**, combining verifiable task synthesis from financial reports with cold-start SFT and long-horizon RL to improve Cowork Agents.
