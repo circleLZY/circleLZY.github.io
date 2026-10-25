@@ -8,6 +8,19 @@ My full paper list can be found at <a href="{{ site.author.googlescholar }}"><im
 {% capture iris_downloads_url %}https://raw.githubusercontent.com/{{ site.repository }}/model-download-stats/iris.json{% endcapture %}
 {% capture mirothinker_downloads_url %}https://raw.githubusercontent.com/{{ site.repository }}/model-download-stats/mirothinker-v1.json{% endcapture %}
 
+<!-- Figure 1 from Navalia, arXiv:2610.26887v1, page 3. -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report 2026</div><img src='images/navalia.png' alt="Navalia pipeline for verifiable task synthesis and long-horizon post-training" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training](https://arxiv.org/pdf/2610.26887) \\
+AllSpark Team (**Co-first author**, listed second)
+
+[**Project**](https://github.com/AllSpark-Research/AgentEnv/tree/main/Navalia)
+  - We introduce **Navalia**, combining verifiable task synthesis from financial reports with cold-start SFT and long-horizon RL to improve Cowork Agents.
+  - Navalia-35B-A3B improves over Qwen3.6-35B-A3B on all five benchmarks, including gains of 23.06 percentage points on OfficeQA Pro and 13.07 on Workspace-Bench-Lite.
+</div>
+</div>
+
 <!-- Figure 1 from Iris, arXiv:2609.04304v2, page 1. -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report 2026</div><img src='images/iris.png' alt="Iris performance across four agentic search benchmarks" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
