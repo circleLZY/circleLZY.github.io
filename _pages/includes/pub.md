@@ -17,7 +17,7 @@ AllSpark Team (**Core contributor**)
 
 [**Project**](https://github.com/AllSpark-Research/AgentEnv/tree/main/Navalia) [![AgentEnv GitHub stars](https://img.shields.io/github/stars/AllSpark-Research/AgentEnv?style=social)](https://github.com/AllSpark-Research/AgentEnv/tree/main)
   - We introduce **Navalia**, combining verifiable task synthesis from financial reports with cold-start SFT and long-horizon RL to improve Cowork Agents.
-  - Navalia-35B-A3B improves over Qwen3.6-35B-A3B on all five benchmarks, including gains of 23.06 pp on OfficeQA Pro and 13.07 pp on Workspace-Bench-Lite.
+  - Navalia-35B-A3B delivers competitive performance with leading open- and closed-source models on several financial analysis and general-purpose Cowork benchmarks, scoring 62.66% on OfficeQA Pro and 59.27% on Workspace-Bench-Lite.
 </div>
 </div>
 
