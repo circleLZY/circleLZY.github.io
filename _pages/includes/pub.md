@@ -113,8 +113,8 @@ Kaiyu Li\*, Jiawei Jiang\*, ..., **Ziyuan Liu\***, Yuantao Gu, ..., Xiangyong Ca
 
 [M$^2$CD: A Unified MultiModal Framework for Optical-SAR Change Detection with Mixture of Experts and Self-Distillation](https://arxiv.org/abs/2503.19406) \\
 **Ziyuan Liu**, Jiawei Zhang, Wenyu Wang, Yuantao Gu
-  -  We propose a unified **M**ulti**M**odal **CD** framework (M$^2$CD), which is highly versatile and robust, compatible with various backbone architectures.
-  -  By introducing modality-specialized MoE modules into the backbone and innovatively proposing an Optical-to-SAR transition path (O2SP) for self-distillation guidance, we reduce the feature space discrepancies between different modalities and alleviate the model’s burden in processing multimodal data.
+  -  We propose a versatile and robust **M**ulti**M**odal **CD** framework (M$^2$CD), compatible with various backbone architectures.
+  -  Modality-specialized MoE modules and an Optical-to-SAR transition path (O2SP) for self-distillation reduce cross-modal feature discrepancies and ease multimodal processing.
   -  Extensive experiments on the CAU-Flood dataset demonstrate that M2CD outperforms all SOTA methods.
 </div>
 </div>
@@ -128,8 +128,8 @@ Kaiyu Li\*, Jiawei Jiang\*, ..., **Ziyuan Liu\***, Yuantao Gu, ..., Xiangyong Ca
 [DSRKD: Joint Despecking and Super-Resolution of SAR Images via Knowledge Distillation](https://ieeexplore.ieee.org/abstract/document/10606284) \\
 **Ziyuan Liu**, Shaoping Wang, Ying Li, Yuantao Gu, Quan Yu
 
-  - We propose the **DSRKD** network, with an encoder–upscaling–decoder architecture that allows for SR at various resolution scales. The encoder and decoder can also be replaced with various more complex modules, and various distillation methods can be easily added, making it a simple and efficient baseline for despeckling SR.
-  - We innovatively combine the SR of speckled images with denoising using knowledge distillation (KD), significantly improving the performance of the model without introducing any additional computational overhead during inference.
+  - We propose **DSRKD**, an encoder–upscaling–decoder network supporting SR at various scales. Its modular design accommodates different encoders, decoders, and distillation methods, making it a simple and efficient baseline for despeckling SR.
+  - We combine SR and denoising for speckled images through knowledge distillation (KD), significantly improving performance without additional computation during inference.
 </div>
 </div>
 
@@ -141,7 +141,7 @@ Kaiyu Li\*, Jiawei Jiang\*, ..., **Ziyuan Liu\***, Yuantao Gu, ..., Xiangyong Ca
 
   - We innovatively utilize a KD mechanism to combine compression with denoising for speckled images. Our method exhibits superior performance compared to other methods on both synthetic and SAR datasets.
   - The distillation mechanism is applicable to various learned image compression algorithms and consistently enhances their performance.
-  - This enhancement is achieved without introducing extra complexity in terms of computational time and memory utilization during inference.
+  - This enhancement adds no computational or memory overhead during inference.
 </div>
 </div>
 
