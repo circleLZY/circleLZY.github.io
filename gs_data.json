@@ -18,7 +18,7 @@
   ],
   "email_domain": "@mails.tsinghua.edu.cn",
   "homepage": "https://circlelzy.github.io/",
-  "citedby": 235,
+  "citedby": 252,
   "publications": {
     "lFZpfE4AAAAJ:YsMSGLbcyi4C": {
       "container_type": "Publication",
@@ -29,7 +29,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:YsMSGLbcyi4C",
-      "num_citations": 72,
+      "num_citations": 75,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4581200673109744279,11669734183149342986,15271246747544430237",
       "cites_id": [
         "4581200673109744279",
@@ -46,7 +46,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:IjCSPb-OGe4C",
-      "num_citations": 34,
+      "num_citations": 38,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10471259573012456446,17793465141102930118",
       "cites_id": [
         "10471259573012456446",
@@ -62,7 +62,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:_FxGoFyzp5QC",
-      "num_citations": 31,
+      "num_citations": 33,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5323926518410590563,14289925105348512259,4227078122772458456,2414651904344713683",
       "cites_id": [
         "5323926518410590563",
@@ -80,7 +80,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:LkGwnXOMwfcC",
-      "num_citations": 27,
+      "num_citations": 28,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=271861590935965615,13304443506874401236,9803274143686995501",
       "cites_id": [
         "271861590935965615",
@@ -97,7 +97,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:2osOgNQ5qMEC",
-      "num_citations": 23,
+      "num_citations": 24,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15515201219644297774",
       "cites_id": [
         "15515201219644297774"
@@ -107,12 +107,12 @@
       "container_type": "Publication",
       "source": "AUTHOR_PUBLICATION_ENTRY",
       "bib": {
-        "title": "MCD: A Unified MultiModal Framework for Optical-SAR Change Detection with Mixture of Experts and Self-Distillation",
+        "title": "M^2CD: A Unified MultiModal Framework for Optical-SAR Change Detection with Mixture of Experts and Self-Distillation",
         "pub_year": "2025"
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:Tyk-4Ss8FVUC",
-      "num_citations": 14,
+      "num_citations": 16,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9408108448825674735",
       "cites_id": [
         "9408108448825674735"
@@ -127,7 +127,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:u-x6o8ySG0sC",
-      "num_citations": 13,
+      "num_citations": 14,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10625056449028599411",
       "cites_id": [
         "10625056449028599411"
@@ -164,6 +164,21 @@
         "11433914938610370313"
       ]
     },
+    "lFZpfE4AAAAJ:9yKSN-GCB0IC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "A two-stage method for joint denoising and compression of SAR images",
+        "pub_year": "2024"
+      },
+      "filled": false,
+      "author_pub_id": "lFZpfE4AAAAJ:9yKSN-GCB0IC",
+      "num_citations": 4,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14076463294880009709",
+      "cites_id": [
+        "14076463294880009709"
+      ]
+    },
     "lFZpfE4AAAAJ:zYLM7Y9cAGgC": {
       "container_type": "Publication",
       "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -179,19 +194,34 @@
         "18220550052038008928"
       ]
     },
-    "lFZpfE4AAAAJ:9yKSN-GCB0IC": {
+    "lFZpfE4AAAAJ:M3ejUd6NZC8C": {
       "container_type": "Publication",
       "source": "AUTHOR_PUBLICATION_ENTRY",
       "bib": {
-        "title": "A two-stage method for joint denoising and compression of SAR images",
-        "pub_year": "2024"
+        "title": "Iris: Climbing to the Search Frontier",
+        "pub_year": "2026"
       },
       "filled": false,
-      "author_pub_id": "lFZpfE4AAAAJ:9yKSN-GCB0IC",
-      "num_citations": 3,
-      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14076463294880009709",
+      "author_pub_id": "lFZpfE4AAAAJ:M3ejUd6NZC8C",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4041713449421289991",
       "cites_id": [
-        "14076463294880009709"
+        "4041713449421289991"
+      ]
+    },
+    "lFZpfE4AAAAJ:4TOpqqG69KYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Manifold-Constrained Noise Optimization for Diverse Diffusion Sampling",
+        "pub_year": "2026"
+      },
+      "filled": false,
+      "author_pub_id": "lFZpfE4AAAAJ:4TOpqqG69KYC",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10227446179210643765",
+      "cites_id": [
+        "10227446179210643765"
       ]
     },
     "lFZpfE4AAAAJ:UebtZRa9Y70C": {
@@ -239,26 +269,15 @@
         "2242840200777821312"
       ]
     },
-    "lFZpfE4AAAAJ:M3ejUd6NZC8C": {
+    "lFZpfE4AAAAJ:qxL8FJ1GzNcC": {
       "container_type": "Publication",
       "source": "AUTHOR_PUBLICATION_ENTRY",
+      "filled": false,
+      "author_pub_id": "lFZpfE4AAAAJ:qxL8FJ1GzNcC",
       "bib": {
-        "title": "Iris: Climbing to the Search Frontier",
+        "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
         "pub_year": "2026"
       },
-      "filled": false,
-      "author_pub_id": "lFZpfE4AAAAJ:M3ejUd6NZC8C",
-      "num_citations": 0
-    },
-    "lFZpfE4AAAAJ:4TOpqqG69KYC": {
-      "container_type": "Publication",
-      "source": "AUTHOR_PUBLICATION_ENTRY",
-      "bib": {
-        "title": "Manifold-Constrained Noise Optimization for Diverse Diffusion Sampling",
-        "pub_year": "2026"
-      },
-      "filled": false,
-      "author_pub_id": "lFZpfE4AAAAJ:4TOpqqG69KYC",
       "num_citations": 0
     },
     "lFZpfE4AAAAJ:ULOm3_A8WrAC": {
@@ -294,15 +313,15 @@
       "num_citations": 0
     }
   },
-  "citedby5y": 235,
+  "citedby5y": 252,
   "hindex": 7,
   "hindex5y": 7,
   "i10index": 7,
   "i10index5y": 7,
   "cites_per_year": {
     "2024": 4,
-    "2025": 52,
-    "2026": 178
+    "2025": 53,
+    "2026": 194
   },
-  "updated": "2026-10-20T13:11:45+00:00"
+  "updated": "2026-11-04T03:18:54+00:00"
 }
