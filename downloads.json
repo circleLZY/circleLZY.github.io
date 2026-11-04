@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-03T16:19:01+00:00",
+  "updated": "2026-11-04T16:23:32+00:00",
   "metric": "downloadsAllTime",
   "groups": {
     "iris": {
-      "total": 2530,
+      "total": 2542,
       "models": {
-        "AllSpark-Research/Iris-mini": 1465,
-        "AllSpark-Research/Iris-pro": 1065
+        "AllSpark-Research/Iris-mini": 1475,
+        "AllSpark-Research/Iris-pro": 1067
       }
     },
     "mirothinker-v1": {
-      "total": 6830,
+      "total": 6864,
       "models": {
-        "miromind-ai/MiroThinker-v1.0-8B": 2701,
-        "miromind-ai/MiroThinker-v1.0-30B": 3618,
+        "miromind-ai/MiroThinker-v1.0-8B": 2713,
+        "miromind-ai/MiroThinker-v1.0-30B": 3640,
         "miromind-ai/MiroThinker-v1.0-72B": 511
       }
     }
