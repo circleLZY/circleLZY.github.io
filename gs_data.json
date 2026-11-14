@@ -18,7 +18,7 @@
   ],
   "email_domain": "@mails.tsinghua.edu.cn",
   "homepage": "https://circlelzy.github.io/",
-  "citedby": 252,
+  "citedby": 293,
   "publications": {
     "lFZpfE4AAAAJ:YsMSGLbcyi4C": {
       "container_type": "Publication",
@@ -29,12 +29,14 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:YsMSGLbcyi4C",
-      "num_citations": 75,
-      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4581200673109744279,11669734183149342986,15271246747544430237",
+      "num_citations": 104,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4581200673109744279,1960422451266813206,11669734183149342986,15271246747544430237,5077527281572880066",
       "cites_id": [
         "4581200673109744279",
+        "1960422451266813206",
         "11669734183149342986",
-        "15271246747544430237"
+        "15271246747544430237",
+        "5077527281572880066"
       ]
     },
     "lFZpfE4AAAAJ:IjCSPb-OGe4C": {
@@ -62,13 +64,15 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:_FxGoFyzp5QC",
-      "num_citations": 33,
-      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5323926518410590563,14289925105348512259,4227078122772458456,2414651904344713683",
+      "num_citations": 42,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5323926518410590563,14289925105348512259,4227078122772458456,2414651904344713683,12149465106401928649,8461416398081323581",
       "cites_id": [
         "5323926518410590563",
         "14289925105348512259",
         "4227078122772458456",
-        "2414651904344713683"
+        "2414651904344713683",
+        "12149465106401928649",
+        "8461416398081323581"
       ]
     },
     "lFZpfE4AAAAJ:LkGwnXOMwfcC": {
@@ -112,7 +116,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:Tyk-4Ss8FVUC",
-      "num_citations": 16,
+      "num_citations": 17,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9408108448825674735",
       "cites_id": [
         "9408108448825674735"
@@ -233,7 +237,7 @@
       },
       "filled": false,
       "author_pub_id": "lFZpfE4AAAAJ:UebtZRa9Y70C",
-      "num_citations": 1,
+      "num_citations": 3,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2073156688374841908",
       "cites_id": [
         "2073156688374841908"
@@ -313,15 +317,15 @@
       "num_citations": 0
     }
   },
-  "citedby5y": 252,
+  "citedby5y": 293,
   "hindex": 7,
   "hindex5y": 7,
   "i10index": 7,
   "i10index5y": 7,
   "cites_per_year": {
     "2024": 4,
-    "2025": 53,
-    "2026": 194
+    "2025": 55,
+    "2026": 233
   },
-  "updated": "2026-11-04T03:18:54+00:00"
+  "updated": "2026-11-14T09:58:11+00:00"
 }
