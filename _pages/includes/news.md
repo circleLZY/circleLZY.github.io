@@ -3,12 +3,12 @@
 - *2026.10*: 荣获研究生综合奖学金（一等）.
 - *2026.09*: 我们发布了技术报告 “[Iris](https://arxiv.org/abs/2609.04304)”，取得同规模开源 Search Agent 的最强综合表现 🚀！ [模型权重](https://huggingface.co/collections/AllSpark-Research/iris)与[评测 Harness](https://github.com/AllSpark-Research/Iris/tree/main/Iris-Harness)均已开源，欢迎使用与交流！
 - *2026.06*: 荣获清华大学三好学生.
-- *2026.05*: 我们的论文 "[Stage-wise Distortion-Perception Traversal in Zero-shot Inverse Problems with Diffusion Models](https://arxiv.org/abs/2605.28711)" 被 ICML 接收！🎉
+- *2026.05*: 我们的论文 "[MAP-RPS](https://arxiv.org/abs/2605.28711)" 被 ICML 接收！🎉
 - *2026.02*: 我们的论文 "[JL1-CD](https://arxiv.org/abs/2502.13407)" 被 IEEE TIM 接收！🎉
 - *2026.01*: 我们的论文 "[UnlearningCD](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11359002)" 被 IEEE JSTARS 接收！🎉
 - *2025.11*: 荣获第五届《雷达学报》博士论坛最佳报告.
 - *2025.10*: 荣获《中国图象图形学报》研究生学术沙龙杰出报告.
 - *2025.10*: 荣获研究生综合奖学金（一等）.
-- *2025.09*: 我们的论文 "[Improving Diffusion-based Inverse Algorithms under Few-Step Constraint via Linear Extrapolation](https://papers.neurips.cc/paper_files/paper/2025/hash/2ca73f0633760e2e2740ccb2a0d3f8a1-Abstract-Conference.html)" 被 NeurIPS 接收！🎉
+- *2025.09*: 我们的论文 "[LLE](https://papers.neurips.cc/paper_files/paper/2025/hash/2ca73f0633760e2e2740ccb2a0d3f8a1-Abstract-Conference.html)" 被 NeurIPS 接收！🎉
 - *2025.06*: 荣获清华大学电子之星奖学金.
 - *2025.01*: 荣获第二届“吉林一号”杯卫星遥感大赛赛题A（道路提取）冠军，赛题B（变化检测）亚军 🏆.
