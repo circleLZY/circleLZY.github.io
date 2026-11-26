@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T18:40:45+00:00",
+  "updated": "2026-11-26T18:28:21+00:00",
   "metric": "downloadsAllTime",
   "groups": {
     "iris": {
@@ -10,11 +10,11 @@
       }
     },
     "mirothinker-v1": {
-      "total": 7749,
+      "total": 7789,
       "models": {
-        "miromind-ai/MiroThinker-v1.0-8B": 3134,
-        "miromind-ai/MiroThinker-v1.0-30B": 3997,
-        "miromind-ai/MiroThinker-v1.0-72B": 618
+        "miromind-ai/MiroThinker-v1.0-8B": 3154,
+        "miromind-ai/MiroThinker-v1.0-30B": 4015,
+        "miromind-ai/MiroThinker-v1.0-72B": 620
       }
     }
   }
