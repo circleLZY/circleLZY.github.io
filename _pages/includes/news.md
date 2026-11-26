@@ -1,7 +1,7 @@
 # 🔥 News
-- *2026.10*: 我们发布了 Cowork Agent 技术报告 “[Navalia](https://arxiv.org/abs/2610.26887)”，在金融分析与通用办公的五项基准上均较基座模型取得显著提升 🚀！
+- *2026.10*: 我们在小红书Allspark团队发布了 Cowork Agent 技术报告 “[Navalia](https://arxiv.org/abs/2610.26887)”，在金融分析与通用办公的五项基准上均较基座模型取得显著提升 🚀！
 - *2026.10*: 荣获研究生综合奖学金（一等）.
-- *2026.09*: 我们发布了技术报告 “[Iris](https://arxiv.org/abs/2609.04304)”，取得同规模开源 Search Agent 的最强综合表现 🚀！ [模型权重](https://huggingface.co/collections/AllSpark-Research/iris)与[评测 Harness](https://github.com/AllSpark-Research/Iris/tree/main/Iris-Harness)均已开源，欢迎使用与交流！
+- *2026.09*: 我们在小红书Allspark团队发布了技术报告 “[Iris](https://arxiv.org/abs/2609.04304)”，取得同规模开源 Search Agent 的最强综合表现 🚀！ [模型权重](https://huggingface.co/collections/AllSpark-Research/iris)与[评测 Harness](https://github.com/AllSpark-Research/Iris/tree/main/Iris-Harness)均已开源！
 - *2026.06*: 荣获清华大学三好学生.
 - *2026.05*: 我们的论文 "[MAP-RPS](https://arxiv.org/abs/2605.28711)" 被 ICML 接收！🎉
 - *2026.02*: 我们的论文 "[JL1-CD](https://arxiv.org/abs/2502.13407)" 被 IEEE TIM 接收！🎉
